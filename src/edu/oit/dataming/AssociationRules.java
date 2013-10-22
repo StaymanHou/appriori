@@ -199,6 +199,7 @@ public class AssociationRules {
 			if (first_flag) {
 				first_flag = false;
 				buff += "I"+Integer.toString(i);
+				continue;
 			}
 			buff += ",I"+Integer.toString(i);
 		}
